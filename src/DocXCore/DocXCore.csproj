@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="DocXCore.Resources.default_styles.xml.gz" />
+    <None Remove="DocXCore.Resources.numbering.default_bullet_abstract.xml.gz" />
+    <None Remove="DocXCore.Resources.numbering.default_decimal_abstract.xml.gz" />
+    <None Remove="DocXCore.Resources.numbering.xml.gz" />
+    <None Remove="DocXCore.Resources.styles.xml.gz" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="DocXCore.Resources.default_styles.xml.gz" />
+    <EmbeddedResource Include="DocXCore.Resources.numbering.default_bullet_abstract.xml.gz" />
+    <EmbeddedResource Include="DocXCore.Resources.numbering.default_decimal_abstract.xml.gz" />
+    <EmbeddedResource Include="DocXCore.Resources.numbering.xml.gz" />
+    <EmbeddedResource Include="DocXCore.Resources.styles.xml.gz" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Drawing.Common" Version="4.5.1" />
+    <PackageReference Include="System.IO.Packaging" Version="4.5.0" />
+  </ItemGroup>
+
+</Project>

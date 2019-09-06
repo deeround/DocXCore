@@ -1,0 +1,33 @@
+namespace Novacode
+{
+	public enum BlockArrowShapes
+	{
+		rightArrow,
+		leftArrow,
+		upArrow,
+		downArrow,
+		leftRightArrow,
+		upDownArrow,
+		quadArrow,
+		leftRightUpArrow,
+		bentArrow,
+		uturnArrow,
+		leftUpArrow,
+		bentUpArrow,
+		curvedRightArrow,
+		curvedLeftArrow,
+		curvedUpArrow,
+		curvedDownArrow,
+		stripedRightArrow,
+		notchedRightArrow,
+		homePlate,
+		chevron,
+		rightArrowCallout,
+		downArrowCallout,
+		leftArrowCallout,
+		upArrowCallout,
+		leftRightArrowCallout,
+		quadArrowCallout,
+		circularArrow
+	}
+}
